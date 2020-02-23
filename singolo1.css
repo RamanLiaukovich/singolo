@@ -1,0 +1,123 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+}
+
+.logo {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.logo__star {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #f06c64;
+}
+
+li {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.services__description {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+
+.tool__description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.wrapper {
+  max-width: 1020px;
+  margin: auto;
+}
+
+.header {
+  background: #2d303a;
+  padding: auto 0;
+  height: 88.5px;
+}
+
+.header__wrapper {
+  height: 88.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation__link {
+  padding-top: 44.5;
+  list-style: none;
+  padding: 0 17px;
+}
+
+.line {
+  position: relative;
+  height: 6px;
+  background-color: #323746;
+}
+
+.slider {
+  background: #f06c64;
+  padding: auto 0;
+  height: 600px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider__wrapper {
+  height: 600px;
+  display: flex;
+  margin: auto;
+}
+
+.red_line {
+  position: relative;
+  background-color: #ea676b;
+  height: 6px;
+}
+
+.services {
+  background: #f2f2f2;
+  height: 500px;
+}
+
+.slider__wrapper {
+  position: relative;
+  display: flex;
+}
+
+/*# sourceMappingURL=singolo1.css.map */

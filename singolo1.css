@@ -183,12 +183,12 @@ h2 {
 
 .second__column {
     width: 329px;
-    height: 500px;
+
 }
 
 .third__column {
     width: 308px;
-    height: 500px;
+
 }
 
 h4 {
@@ -213,5 +213,11 @@ h4 {
     font-family: "Lato";
     font-weight: 400;
     text-align: justify;
+}
+
+.services_line {
+    position: relative;
+    color: white;
+    height: 6px;
 }
 

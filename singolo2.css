@@ -1,0 +1,150 @@
+html {
+    margin: 0;
+    width: 1020px;
+}
+
+.portfolio {
+    height: 864px;
+    background-color: #2d303a;
+}
+
+.portfolio-title {
+    display: inline-block;
+    width: 121px;
+    margin: 70px auto auto 41px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+
+.portfolio-description {
+    display: inline-block;
+    margin: 21px 277px auto 40px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: -0.22px;
+}
+
+.portfolio-navigation {  
+    width: 296px;
+    display: flex;
+    justify-content: space-around;
+    margin: 11px auto auto 37px;
+}
+
+.portfolio-navigation-link a {
+    text-decoration: none;
+    display: block;
+    padding: 0 5.8px;
+    border-radius: 5px;
+    border: 1px solid #666d89;
+    font-size: 12px;
+    line-height: 20px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
+
+.portfolio-navigation-link a:hover {
+    color: #dedede;
+    border: 1px solid #c5c5c5;
+}
+
+.portfolio-4-column {
+    display: flex;
+    justify-content: space-between;
+    height: 610px;
+    width: 960px;
+    margin: 19px 40px 0 40px;
+    overflow: hidden;
+
+}
+.portfolio-4-column img {
+    margin-bottom: 17px;
+    
+}
+
+.portfolio-bottom-line {
+    height: 6px;
+    background-color: #323746;
+}
+
+.about-us {
+    height: 728px;
+    background-color: #f2f2f2;
+}
+
+.About-us_tittle {
+    display: inline-block;
+    margin: 68px auto auto 40px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+
+.about-us-description {
+    margin: 22px auto auto 40px;
+    width: 943px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;  
+    letter-spacing: -0.045px;
+}
+
+.about-us-3-column {
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 40px auto 40px;
+}
+
+.name {
+    margin: 14px 0 10px 0;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.person-description{
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.05px;
+}
+
+.social-media-links {
+    margin-top: 22px;
+}
+
+.social-media-links a {
+    text-decoration: none;
+    padding: 0.3px;
+}
+
+.about-us-bottom-line {
+    height: 6px;
+    background-color: #ffffff;
+}
+

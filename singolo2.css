@@ -39,7 +39,21 @@ html {
     margin: 11px auto auto 37px;
 }
 
-.portfolio-navigation-link a {
+.selected {
+    text-decoration: none;
+    display: block;
+    padding: 0 5.8px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #dedede;
+    border: 1px solid #c5c5c5;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
+
+.unselected {
     text-decoration: none;
     display: block;
     padding: 0 5.8px;

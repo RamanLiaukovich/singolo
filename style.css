@@ -442,7 +442,7 @@ input {
     color: #f0d8d9;
 }
 
-input:invalid {
+input:not(:placeholder-shown):invalid {
     border: 1px solid red;
 }
 
@@ -453,10 +453,6 @@ input::placeholder {
     font-weight: 400;
     letter-spacing: 0.1px;
     font-size: 12px;
-}
-
-input:focus::-webkit-input-placeholder {
-    color: transparent;
 }
 
 .input-describe {
@@ -512,16 +508,36 @@ input:focus::-webkit-input-placeholder {
     font-weight: 400;
 }
 
-.location-images {
+.adress::before {
+    margin-right: 13px;
+    content: "";
+    display: inline-block;
+    height: 11px;
+    width: 7px;
+    filter: invert();
+    background-image: url(./assets/location.svg);
+}
+
+.adress::before {
+    margin-right: 13px;
+    content: "";
+    display: inline-block;
+    height: 11px;
+    width: 7px;
+    filter: invert();
+    background-image: url(./assets/location.svg);
+}
+
+/* .location-images {
     width: 13px;
     display: block;
     text-align: center;
-    fill: #f0d8d9;
+    filter: invert(1);
 }
 
 .telephone-image {
     fill: #f0d8d9;
-}
+} */
 
 .location-coordinates {
     margin-left: 10px;

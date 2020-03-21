@@ -17,29 +17,29 @@
                     <span class="logo logo__color">*</span>
                 </a>
             </div>
-            <nav class="header__navigation">
+            <nav class="header__navigation" id="navigation">
                 <ul class="navigation">
                     <li class="navigation__link">
-                        <a class="navigation__link-selected" href="#">HOME</a>
+                        <a class="navigation__link-selected" href="#home">HOME</a>
                     </li>
                     <li class="navigation__link">
-                        <a class="navigation__link-unselected" href="#">SERVICES</a>
+                        <a href="#sevices">SERVICES</a>
                     </li>
                     <li class="navigation__link">
-                        <a class="navigation__link-unselected" href="#">PORTFOLIO</a>
+                        <a href="#portfolio">PORTFOLIO</a>
                     </li>
                     <li class="navigation__link">
-                        <a class="navigation__link-unselected" href="#">ABOUT</a>
+                        <a href="#about">ABOUT</a>
                     </li>
                     <li class="navigation__link">
-                        <a class="navigation__link-unselected" href="#">CONTACT</a>
+                        <a href="#contact">CONTACT</a>
                     </li>
                 </ul>
             </nav>
         </div>
         <div class="line"></div>
     </header>
-    <div class="slider">
+    <section class="slider" id="home">
         <div class="wrapper slider__wrapper">
             <div class="left__slide">
                 <img src="./assets/left_slide.png" alt="left_slide">
@@ -59,11 +59,12 @@
             <div class="right__slide">
                 <img src="./assets/right_slide.png" alt="right_slide">
             </div>
-        </div>
+        </div>\
+
     </div>
-    <div class="red_line">
-    </div>
-    <section class="services">
+    </section>
+    <div class="red_line"></div>
+    <section class="services"  id="sevices">
         <div class="wrapper services__wrapper">
             <h2>Our Services</h2>
             <div class="services__description">
@@ -110,7 +111,7 @@
         </div>        
     </section>
     <div class="services_line"></div>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="wrapper portfolio__wrapper">
             <h2 class="portfolio-title">Portfolio</h2>
             <p class="portfolio-description">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
@@ -155,7 +156,7 @@
         </div>
     </section>
     <div class="portfolio-bottom-line"></div>
-    <section class="about-us">
+    <section class="about-us" id="about">
         <div class="wrapper about-us__wrapper">
             <h2 class="About-us_tittle">About Us</h2>
             <p class="about-us-description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
@@ -221,7 +222,7 @@
         </div>   
     </section>
     <div class="about-us-bottom-line"></div>
-    <section class="qoute">
+    <section class="qoute" id="contact">
         <div class="wrapper qoute__wrapper">
             <h2 class="quote-title">Get a Quote</h2>
             <p class="quote-description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
@@ -265,5 +266,6 @@
             </a>
         </div>
     </footer>
+<script src="script.js"></script>
 </body>
 </html>

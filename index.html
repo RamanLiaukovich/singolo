@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div class="wrapper header__wrapper">
             <div>
                 <a href="#" class="logo">
@@ -18,50 +18,49 @@
                 </a>
             </div>
             <nav class="header__navigation" id="navigation">
-                <ul class="navigation">
-                    <li class="navigation__link">
-                        <a class="navigation__link-selected" href="#home">HOME</a>
+                <ul>
+                    <li>
+                        <a class="active" href="#home">HOME</a>
                     </li>
-                    <li class="navigation__link">
+                    <li>
                         <a href="#sevices">SERVICES</a>
                     </li>
-                    <li class="navigation__link">
+                    <li>
                         <a href="#portfolio">PORTFOLIO</a>
                     </li>
-                    <li class="navigation__link">
+                    <li>
                         <a href="#about">ABOUT</a>
                     </li>
-                    <li class="navigation__link">
+                    <li>
                         <a href="#contact">CONTACT</a>
                     </li>
                 </ul>
             </nav>
         </div>
-        <div class="line"></div>
     </header>
+    <div class="line"></div>
     <section class="slider" id="home">
         <div class="wrapper slider__wrapper">
             <div class="left__slide">
                 <img src="./assets/left_slide.png" alt="left_slide">
             </div>
-            <div class="shadow1">
-                <img src="./assets/shadow.png" alt="shadow">
+            
+            <div id="main" class="slide active">
+                <img class="first-slide" src="./assets/Slide-1.png" alt="slide1">
+                <div class="phones">
+                    <img class="vertical_phone" src="./assets/Vertical_phone.png" alt="Vertical_phone">
+                    <img class="horizontal_phone" src="./assets/Horizontal_phone.png" alt="Horizontal_phone">
+                    <img class="vertical switch" src="./assets/Vertical-screen.png" alt="Vertical-screen">
+                    <img class="horizontal switch" src="./assets/Horizontal-screen.png" alt="Horizontal-screen">
+                </div>
             </div>
-            <div class="vertical_phone">
-                <img src="./assets/Vertical_phone.png" alt="Vertical_phone">
-            </div>
-            <div class="shadow2">
-                <img src="./assets/shadow2.png" alt="shadow">
-            </div>
-            <div class="horizontal_phone">
-                <img src="./assets/Horizontal_phone.png" alt="Horizontal_phone">
+            <div class="slide">
+                <img class="slide-2" src="./assets/Slide-2.png" alt="slide-2">
             </div>
             <div class="right__slide">
                 <img src="./assets/right_slide.png" alt="right_slide">
             </div>
-        </div>\
-
-    </div>
+        </div>
     </section>
     <div class="red_line"></div>
     <section class="services"  id="sevices">
@@ -70,89 +69,92 @@
             <div class="services__description">
             <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             </div>
-        </div>
-        <div class="tool">
-            <div class="tool first__column">
-                <div class="icon__column">
-                    <img class="icon" src="./assets/pen.svg" alt="pen">
-                    <img class="icon" src="./assets/phone.svg" alt="phone">
-                </div>
-                <div class="description__column">
-                    <h4>Custom Design</h4>
-                    <p class="tool__description">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
-                    <h4>Responsive Layout</h4>
-                    <p class="tool__description">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</p>
-                </div>
-            </div>
-            <div class="tool second__column">
-                <div class="icon__column">
-                    <img class="icon" src="./assets/bulb.svg" alt="bulb">
-                    <img class="icon" src="./assets/bubble.svg" alt="bubble">
-                </div>
-                <div class="description__column">
-                    <h4>Inovative Ideas</h4>
-                    <p class="tool__description">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
-                    <h4>24/ 7 Support</h4>
-                    <p class="tool__description">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</p>
-                </div>
-            </div>
-            <div class="tool third__column">
-                <div class="icon__column">
-                    <img class="icon" src="./assets/heart.svg" alt="heart">
-                    <img class="icon" src="./assets/star.svg" alt="star">
-                </div>
-                <div class="description__column">
-                    <h4>Love Is The Answer</h4>
-                    <p class="tool__description">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
-                    <h4>Feel Like A Star</h4>
-                    <p class="tool__description">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
-                </div>
+            <div class="tool">
+                <ul class="tools_table">
+                    <li>
+                        <img class="icon" src="./assets/pen.svg" alt="pen">
+                        
+                        <div class="description__column">
+                            <h4>Custom Design</h4>
+                            <p class="tool__description">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="icon" src="./assets/bulb.svg" alt="bulb">
+                        <div class="description__column">
+                            <h4>Inovative Ideas</h4>
+                            <p class="tool__description">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="icon" src="./assets/heart.svg" alt="heart">
+                        <div class="description__column">
+                            <h4>Love Is The Answer</h4>
+                            <p class="tool__description">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <img class="icon" src="./assets/phone.svg" alt="phone">
+                        <div class="description__column">
+                            <h4>Responsive Layout</h4>
+                            <p class="tool__description">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="icon" src="./assets/bubble.svg" alt="bubble">
+                        <div class="description__column">
+                            <h4>24/ 7 Support</h4>
+                            <p class="tool__description">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="icon" src="./assets/star.svg" alt="star">
+                        <div class="description__column">
+                            <h4>Feel Like A Star</h4>
+                            <p class="tool__description">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
+                        </div>
+                    </li>
+                </ul>    
             </div>    
-        </div>        
+        </div>
+            
     </section>
     <div class="services_line"></div>
     <section class="portfolio" id="portfolio">
         <div class="wrapper portfolio__wrapper">
-            <h2 class="portfolio-title">Portfolio</h2>
+            <h2 id="table" class="portfolio-title">Portfolio</h2>
             <p class="portfolio-description">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-            <nav class="navbar portfolio-navbar">
-                <ul class="portfolio-navigation">
-                    <li class="portfolio-navigation-link">
-                       <a class="selected" href="#">All</a>
+            <div class="portfolio-navigation" id="portfolio-navigation">
+                <ul>
+                    <li>
+                       <a class="selected" href="#table">All</a>
                     </li>
-                    <li class="portfolio-navigation-link">
-                        <a class="unselected" href="#">Web Design</a>
+                    <li>
+                        <a href="#table">Web Design</a>
                      </li>
-                     <li class="portfolio-navigation-link">
-                        <a class="unselected" href="#">Graphic Design</a>
+                     <li>
+                        <a href="#table">Graphic Design</a>
                      </li>
-                     <li class="portfolio-navigation-link">
-                        <a class="unselected" href="#">Artwork</a>
+                     <li>
+                        <a href="#table">Artwork</a>
                      </li>
                 </ul>
-            </nav>        
-            <div class="portfolio-4-column">
-                <div class="portfolio-first-column">
-                    <img src="assets/singolo2/1.jpg" alt="portfolio">
-                    <img src="assets/singolo2/2.jpg" alt="portfolio">
-                    <img src="assets/singolo2/3.jpg" alt="portfolio">
-                </div>
-                <div class="portfolio-second-column">
-                    <img src="assets/singolo2/4.jpg" alt="portfolio">
-                    <img src="assets/singolo2/5.jpg" alt="portfolio">
-                    <img src="assets/singolo2/6.jpg" alt="portfolio">
-                </div>
-                <div class="portfolio-third-column">
-                    <img src="assets/singolo2/7.jpg" alt="portfolio">
-                    <img src="assets/singolo2/8.jpg" alt="portfolio">
-                    <img src="assets/singolo2/9.jpg" alt="portfolio">
-                </div>
-                <div class="portfolio-forth-column">
-                    <img src="assets/singolo2/10.jpg" alt="portfolio">
-                    <img src="assets/singolo2/11.jpg" alt="portfolio">
-                    <img src="assets/singolo2/12.jpg" alt="portfolio">
-                </div>
-            </div>
+            </div> 
+            <ul class="portfolio-4-column">
+                <li><img src="assets/singolo2/1.jpg" alt="portfolio"></li>
+                <li><img src="assets/singolo2/4.jpg" alt="portfolio"></li>
+                <li><img src="assets/singolo2/7.jpg" alt="portfolio"></li>
+                <li><img src="assets/singolo2/10.jpg" alt="portfolio"></li>
+                <li><img src="assets/singolo2/2.jpg" alt="portfolio"></li>
+                <li><img src="assets/singolo2/5.jpg" alt="portfolio"></li>
+                <li><img src="assets/singolo2/8.jpg" alt="portfolio"></li>       
+                <li><img src="assets/singolo2/11.jpg" alt="portfolio"></li>
+                <li><img src="assets/singolo2/3.jpg" alt="portfolio"></li>
+                <li><img src="assets/singolo2/6.jpg" alt="portfolio"></li>
+                <li><img src="assets/singolo2/9.jpg" alt="portfolio"></li>                
+                <li><img src="assets/singolo2/12.jpg" alt="portfolio"></li>    
+            </ul>             
         </div>
     </section>
     <div class="portfolio-bottom-line"></div>
@@ -161,7 +163,7 @@
             <h2 class="About-us_tittle">About Us</h2>
             <p class="about-us-description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             <div class="about-us-3-column">
-                <div class="about-us-first-column">
+                <div class="about-us-column">
                     <img class="photo" src="./assets/singolo2/Photo-1.jpg" alt="Adam Jensen">
                     <h4 class="name">Adam Jensen</h4>
                     <p class="person-description">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
@@ -180,7 +182,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="about-us-second-column">
+                <div class="about-us-column">
                     <img class="photo" src="./assets/singolo2/Photo-2.jpg" alt="Desmond Miles">
                     <h4 class="name">Desmond Miles</h4>
                     <p class="person-description">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
@@ -199,7 +201,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="about-us-third-column">
+                <div class="about-us-column">
                     <img class="photo" src="./assets/singolo2/Photo-3.jpg" alt="Scolara Visari">
                     <h4 class="name">Scolara Visari</h4>
                     <p class="person-description">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
@@ -227,13 +229,16 @@
             <h2 class="quote-title">Get a Quote</h2>
             <p class="quote-description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             <div class="form-contacts">
-                <form class="form-area" action="/assets/form.html" method="POST">
-                    <input class="input-one" type="text" name="name" id="name" placeholder="Name (Required)" required>
-                    <input class="input-one" type="email" name="email" id="email" placeholder="Email (Required)" required>
-                    <input class="input-one" type="text" name="subject" id="subject" placeholder="Subject">
-                    <textarea class="input-describe" name="describe" id="describe" placeholder="Describe your ptoject in detail..."></textarea>
-                    <input class="submit" type="submit" value="Submit">
-                </form>
+                <div class="form-column">
+                    <form id="form-area" action="./assets/form.html" method="POST">
+                        <input class="input-one required" type="text" name="name" id="name" placeholder="Name (Required)" required>
+                        <input class="input-one required" type="email" name="email" id="email" placeholder="Email (Required)" required>
+                        <input class="input-one" type="text" name="subject" maxlength="50" id="subject" placeholder="Subject">
+                        <textarea class="input-describe" name="describe" maxlength="500" id="describe" placeholder="Describe your ptoject in detail..."></textarea>
+                        <button onclick="event.preventDefault()" class="submit" id="button">SEND</button>
+                    </form>
+                    
+                </div>
                 <div class="contacts">
                     <h4 class="contacts-title">Contact Information</h4>
                     <p class="contacts-description">Quisque hendrerit purus dapibus, ornare nibh vitae, viver&shy;ra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. </p>
@@ -249,21 +254,32 @@
         </div>
     </section>
     <div class="contacts-bottom-light"></div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>The letter was sent</h2>
+            </div>
+            <div id="modal-body"></div>
+            <div class="modal-footer"><button class="modal-button">OK</button></div>
+        </div>
+    </div>
     <footer>
-        <span class="copyright">© Copyright 2013</span>
-        <div class="social-media-bar">
-            <a href="#">
-                <img src="./assets/singolo2/Facebook.svg" alt="facebook">
-            </a>
-            <a href="#">
-                <img src="./assets/singolo2/Google.svg" alt="Google">
-            </a>
-            <a href="#">
-                <img src="./assets/singolo2/Twitter.svg" alt="Twitter">
-            </a>
-            <a href="#">
-                <img src="./assets/singolo2/LinkedIn.svg" alt="LinkedIn">
-            </a>
+        <div class="wrapper footer-wrapper">
+            <span class="copyright">© Copyright 2013</span>
+            <div class="social-media-bar">
+                <a href="#">
+                    <img src="./assets/singolo2/Facebook.svg" alt="facebook">
+                </a>
+                <a href="#">
+                    <img src="./assets/singolo2/Google.svg" alt="Google">
+                </a>
+                <a href="#">
+                    <img src="./assets/singolo2/Twitter.svg" alt="Twitter">
+                </a>
+                <a href="#">
+                    <img src="./assets/singolo2/LinkedIn.svg" alt="LinkedIn">
+                </a>
+            </div>
         </div>
     </footer>
 <script src="script.js"></script>

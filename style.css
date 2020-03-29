@@ -1,8 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100vw;
     margin: 0 auto;
     padding: 0;
-    scroll-behavior: smooth;
 }
 
 header {
@@ -217,8 +220,6 @@ a:hover {
     width: 100%;
 }
 
-
-
 .to-left {
     animation-name: left;
 }
@@ -239,10 +240,14 @@ a:hover {
 
 @keyframes left {
     from {
-        left: 0;
+        left: calc((100% - 1020px) / 2);
+        width: 100%;
+        max-width: 1020px;
     } 
     to {
         left: -100%;
+        width: 100%;
+        max-width: 1020px;
     }
 }
 
@@ -250,9 +255,13 @@ a:hover {
 @keyframes right {
     from {
         left: 100%;
+        width: 100%;
+        max-width: 1020px;
     } 
     to {
-        left: 0%;
+        left: calc((100% - 1020px) / 2);
+        width: 100%;
+        max-width: 1020px;
     }
 }
 .red_line {
@@ -538,9 +547,9 @@ h2 {
 
 .about-us-3-column {
     display: flex;
-    width: 90%;
+    width: 93%;
     justify-content: space-between;
-    margin: 48px 40px auto 40px;
+    margin: 22px 40px auto 40px;
     
 }
 
@@ -563,6 +572,7 @@ h2 {
 .person-description{
     width: 100%;
     font-size: 12px;
+    height: 55px;
     line-height: 22px;
     color: #767e9e;
     font-family: "Lato", sans-serif;
@@ -572,7 +582,7 @@ h2 {
 }
 
 .social-media-links {
-    margin-top: 22px;
+    margin-top: 12px;
 }
 
 .social-media-links a {
@@ -595,6 +605,12 @@ h2 {
     max-width: 1020px;
     margin: 0 auto;
 }
+
+.form-contacts {
+    display: flex;
+    margin-top: 20px;
+}
+
 .quote-title {
     width: 162px;
     font-size: 30px;
@@ -610,7 +626,7 @@ h2 {
 
 .quote-description {
     display: inline-block;
-    width: 90%;
+    width: 91%;
     height: 57px;
     font-size: 18px;
     line-height: 30px;
@@ -622,19 +638,16 @@ h2 {
     letter-spacing: -0.05px;
 }
 
-.form-contacts {
-    display: flex;
-}
 
 .form-column {
     margin-left: 40px;
-    width: 57.6%;
+    width: 60.6%;
 }
 
 form {
     display: grid;
     width: 100%;
-    margin: 47px auto auto 0;
+    margin: 22px auto auto 0;
 }
 
 input {
@@ -662,7 +675,7 @@ input::placeholder {
 }
 
 .input-describe {
-    height: 195px;
+    height: 159px;
     border-radius: 5px;
     margin-bottom: 15px;
     background-color: #d6564f;
@@ -691,7 +704,7 @@ textarea {
 .contacts {
     width: 27.8%;
     height: 194px;
-    margin: 48px 40px auto auto;
+    margin: 20px 40px auto 2%;
 }
 
 button {
@@ -932,6 +945,10 @@ footer {
 
     }
     
+    .person-description{
+        height: 92px;
+    }
+
     .tool {
         margin-top: 210px;
     }

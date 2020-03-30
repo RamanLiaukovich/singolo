@@ -3,19 +3,20 @@ html {
 }
 
 body {
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
 }
 
 header {
     height: 89px;
-    width: 100vw;
+    width: 768px;   
     background-color: #2d303a;
     position: fixed;
     z-index: 5;
     top: 0;
 }
+
 .header__wrapper {
     max-width: 1020px;
     height: 89px;
@@ -425,7 +426,7 @@ h2 {
 
 .portfolio-description {
     display: inline-block;
-    margin: 113px 277px auto 40px;
+    margin: 113px 0 auto 40px;
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;

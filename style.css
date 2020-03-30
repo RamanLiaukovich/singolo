@@ -1087,9 +1087,9 @@ footer {
     }
 
     .portfolio-4-column {
-        height: 564px;
+        height: 580px;
         width: fit-content;
-        margin: 25px auto auto 30px;
+        margin: 25px auto auto 25px;
     }
     
     .portfolio-4-column li {

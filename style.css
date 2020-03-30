@@ -10,7 +10,7 @@ body {
 
 header {
     height: 89px;
-    width: 768px;   
+    width: 100%;   
     background-color: #2d303a;
     position: fixed;
     z-index: 5;

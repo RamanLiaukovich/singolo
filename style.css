@@ -480,7 +480,6 @@ h2 {
 .portfolio-4-column {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     height: 620px;
     width: 94.12%;
     margin: 9px auto 0 auto;
@@ -490,7 +489,12 @@ h2 {
 .portfolio-4-column li {
     list-style: none;
     margin: 10px;
-    cursor: pointer;
+    cursor: pointer;    
+}
+
+.portfolio-4-column li img{
+    width: 100%;
+    
 }
 
 .portfolio-4-column li img:hover {
@@ -980,5 +984,212 @@ footer {
     }
 }
 
+@media only screen and (max-width: 767px) {
+    header {
+        height: 71px;
+        width: 100%;
+    }
 
+    .line {
+        display: none;
+    }
+
+    .header__wrapper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header__wrapper div {
+        margin: auto;
+    }
+
+    .logo {
+        margin: 0;
+        font-size: 19.6875px;
+    }
+
+    .header__navigation {
+        display: none;
+    }
+
+    .slider {
+        position: relative;
+        top: 71px;
+        height: 218.38px;
+    }
+
+    .left__slide, .right__slide img{
+        height: 24.9px;
+    }
+    .red_line {
+        height: 2.2px;
+        position: relative;
+        top: 71px;
+    }
+
+    /* .tools_table {
+        justify-content: space-between;
+    }
+
+    .tools_table li {
+        margin-bottom: 39px;
+    } */
+
+    .services {
+        height: 1032.41px;
+        position: relative;
+        top: 71px;
+    }
+
+    .services h2 {
+        margin: 25px auto auto 32px;
+    }
+
+    .services__description {
+        width: 90%;
+        margin: 70px auto auto 32px;
+
+    }
+    
+    .person-description{
+        height: 92px;
+    }
+
+    .tool {
+        top: 71px;
+        width: fit-content;
+    }
+
+    .tools_table li {
+        margin-bottom: 15px;
+    }
+
+    .services_line {
+        display: none;
+    }
+
+    .portfolio {
+        height: 844px;
+        position: relative;
+        top: 71px;
+    }
+
+    .portfolio-title {
+        margin: 42px auto auto 30px;
+    }
+
+    .portfolio-description {
+        margin: 96px auto auto 30px;
+    }
+
+    .portfolio-navigation ul{
+        margin: 11px auto auto 30px;
+    }
+
+    .portfolio-4-column {
+        height: 564px;
+        width: fit-content;
+        margin: 25px auto auto 30px;
+    }
+    
+    .portfolio-4-column li {
+        margin: 7px;
+        width: 151px;
+    }
+
+    .portfolio-bottom-line {
+        display: none;
+    }
+    .about-us {
+        height: 1754px;
+        position: relative;
+        top: 71px;
+    }
+
+    .About-us_tittle {
+        margin: 42px auto auto 30px;
+    }
+
+    .about-us-description {
+        margin: 96px auto auto 30px;
+    }
+
+    .about-us-3-column {
+        flex-wrap: wrap;
+        width: fit-content;
+    }
+
+    .about-us-column {
+        width: 315px;
+        margin-bottom: 34px;
+    }
+
+    .about-us-bottom-line {
+        display: none;
+    }
+
+    .photo {
+        width: 315px;
+        height: auto;
+    }
+
+    .person-description {
+        height: 47px;
+    }
+
+    .qoute {
+        height: 969px;
+        position: relative;
+        top: 71px;
+    }
+
+    .quote-title {
+        margin: 44px auto auto 30px;
+    }
+    
+    .quote-description {
+        margin: 98px auto auto 30px;
+    }
+
+    .form-contacts {
+        flex-wrap: wrap;
+    }
+
+    button {
+        width: 100%;
+    }
+    .form-contacts div {
+        width: 82.4%;
+        margin: 0 auto 30px auto;
+    }
+
+    .form-contacts div .contacts-detail {
+        width: 169px;
+        margin: 0;
+    }
+
+    form {
+        margin: 20px auto auto 0;
+    }
+
+    .contacts-bottom-light {
+        display: none;
+    }
+
+    footer {
+        top: 71px;
+        position: relative;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .footer-wrapper {
+        height: 100%;
+    }
+    .social-media-bar {
+        margin: auto auto;
+    }
+}
 
